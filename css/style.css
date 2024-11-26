@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: antiquewhite;
+    height: 70px;
+}
+
+
+#links{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#content{
+	text-align: center;
+  background: #46250f;
+  color: wheat;
+}
+
+
+#links a{
+    padding-left: 60px;
+    color: black;
+    text-decoration: none;
+}
+
+
+#coffees{
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+#coffee{
+    width: 25%;
+}
+
+#coffee img{
+    width: 100%;
+}
+
+#coffee button{
+    padding: 8px;
+    background: beige;
+    color: #46250f;
+}
+
+#detail{
+    display: flex;
+    gap: 70px;
+}
+
+
+
+#Description{
+    width: 50%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #854d19;
+    font-family: sans-serif;
+}
+
+
+#Description2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #854d19;
+    font-family: sans-serif;
+}
+
+
+#Description button{
+    padding: 15px;
+    width: 100px;
+    background: antiquewhite;
+}
+
+
+#Description input{
+    padding: 13px;
+    border: 2px solid #854d19;
+}
+
+
+#origins{
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;  
+}
+
+
+
+#register{
+    display: flex;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+#form{
+margin-top: 180px;
+
+}
+
+#form input{
+    padding: 5px;
+    border: 2px solid #854d19;
+}
+
+#form button{
+    padding: 15px;
+    width: 100px;
+    background: antiquewhite;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.footer .cols{
+    padding: 60px;
+    display: flex;
+    gap: 45px;
+}
+
+.footer .cols .col{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.col span{
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: orange;
+}
+
+.footer p{
+    color: #a9a9a9;
+}
+
+
+.footer ul li{
+    color: #a9a9a9;
+    list-style-type: disclosure-closed;
+    padding-top: 15px;
+}
+
+
+.col button{
+    background: orange;
+    border: none;
+    color: white;
+    width: 60%;
+    padding: 13px;
+    font-weight: 800;
+}
+#logo h2{
+    color: orange;
+    font-size: 24px;
+    font-family: fantasy;
+}
